@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.0EA",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "mult_side_scr_test",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Bridge",
