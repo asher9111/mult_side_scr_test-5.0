@@ -13,5 +13,8 @@ UCLASS()
 class MULT_SIDE_SCR_TEST_API UtestClass : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
+
+		void Prt();
+	int x;
 	
 };
