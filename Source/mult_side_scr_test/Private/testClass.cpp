@@ -4,7 +4,3 @@
 #include "testClass.h"
 
 
-void UtestClass::Prt()
-{
-	UEngine::AddOnScreenDebugMessage(1, 0, COLOR_YELLOW, "test", true,FVector2D::UnitVector);
-}
